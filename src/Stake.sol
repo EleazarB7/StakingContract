@@ -13,7 +13,7 @@ contract StakeContract is Ownable {
     event InterestCompounded(address indexed user, uint216 amount); // Event signifying the interest
 
 
-    address public MVPWAIR; //["0x71bDd3e52B3E4C154cF14f380719152fd00362E7"];
+    address public MVPWAIR; 
     uint256 factor = 1e11;
     uint256 delta = 3854;
     
