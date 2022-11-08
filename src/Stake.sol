@@ -81,8 +81,8 @@ contract StakeContract is Ownable {
         }
 
         // Function to get a particular user staking information.
-        //function getUserData(address user) public view returns(Stakedata memory sd){
-           // sd = _stakeData[user];
+        function getUserData(address user) public view returns(Stakedata memory sd){
+            sd = _stakeData[user];
         }
 }
 
