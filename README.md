@@ -4,7 +4,7 @@ This project includes a Solidity smart contract named StakeContract, which allow
 
 ## Smart Contract Details
 
-- **Name**: StakeContract
+- **Name**: Stake Contract
 - **SPDX-License-Identifier**: MIT
 - **Dependencies**: OpenZeppelin's IERC20, Ownable
 
@@ -23,7 +23,7 @@ This project includes a Solidity smart contract named StakeContract, which allow
 - event InterestCompounded(address indexed user, uint216 amount);
   
 ### Usage
-- Deploy the StakeContract contract, providing the address of the MVPWAIR token.
+- Deploy the Stake Contract, providing the address of the MVPWAIR token.
 - Users can stake their tokens using the stake function, which emits a Staked event.
 - The interest is automatically compounded when users stake additional tokens.
 - Users can withdraw their staked tokens with interest using the withdraw function, which emits a Withdrawn event.
