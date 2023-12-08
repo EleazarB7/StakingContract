@@ -1,6 +1,6 @@
 # StakeContract Solidity Project
 
-This project includes a Solidity smart contract named StakeContract, which allows users to stake and withdraw tokens with interest calculations.
+This project includes a Solidity smart contract named Stake, which allows users to stake and withdraw tokens with interest calculations.
 
 ## Smart Contract Details
 
